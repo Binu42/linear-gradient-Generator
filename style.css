@@ -1,0 +1,70 @@
+body {
+  display: grid;
+  align-items: center;
+  font: 'Raleway', sans-serif;
+  color: rgba(0, 0, 0, .5);
+  top: 15%;
+  height: 100%;
+  background: linear-gradient(to right, #0bf7ec, #037de8);
+}
+
+#gradient{
+  height: 100vh;
+}
+
+h1, h2 {
+  font: 600 3.5em 'Raleway', sans-serif;
+  color: rgba(0, 0, 0, .5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  width: 100%;
+}
+
+h3 {
+  font: 900 1em 'Raleway', sans-serif;
+  color: rgba(0, 0, 0, .5);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
+input[type=color]{
+	width: 10vh;
+	height: 10vh;
+	border: none;
+	border-radius: 100%;
+	background: none;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: solid 1px #000; /*change color of the swatch border here*/
+	border-radius: 40px;
+}
+
+.color{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.deg{
+  padding: 30px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 5%;
+  width: 25%;
+  font-size: 1.5rem;
+}
+
+.deg:focus{
+  outline: none;
+}
